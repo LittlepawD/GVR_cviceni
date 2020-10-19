@@ -51,7 +51,7 @@
             var scene = new BABYLON.Scene(engine);
         
             // The first parameter can be used to specify which mesh to import. Here we import all meshes
-            BABYLON.SceneLoader.Append("https://dl.dropbox.com/s/e2qkqyvm5ahdwbq/", "RubberGunv1.glb", scene, function (newMeshes) {
+            BABYLON.SceneLoader.Append("/", "RubberGunv1.glb", scene, function (newMeshes) {
            
                 scene.createDefaultCameraOrLight(true);
                 scene.activeCamera.attachControl(canvas, false);
